@@ -1,0 +1,64 @@
+
+/* Estilo geral da página */
+
+body {
+    background-color: #20202b;
+    color: white;
+    font-family: Arial;
+}
+
+/* Título principal */
+
+#titulo {
+    background-color: #663399;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+/* Organização das três colunas */
+
+#conteudo {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Estilo de cada seção */
+
+.secao {
+    flex: 1;
+    background-color: #4e4e77;
+    width: 28%;
+    margin: 1%;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Títulos das seções */
+
+.secao h2 {
+    color: #d8aaff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* Imagens das seções */
+
+.secao img {
+    width: 100%;
+    height: 215px;
+    margin-bottom: 40px;
+}
+
+/* Textos das seções */
+
+.secao p {
+    color: rgb(240, 148, 240);
+    margin-top: 10px;
+}
+
+/* Rodapé */
+
+#rodape {
+    margin-top: 25px;
+    padding: 15px;
+}
